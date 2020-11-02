@@ -1,0 +1,102 @@
+/*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
+@media only screen and (max-width:1200px) {
+    .blockquote{top:35%;}
+   .long_copy
+    {
+        font-size: 15px;
+    }
+
+}
+
+
+/*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
+@media only screen and (max-width:1023px) {
+.long_copy {line-height: 20px;word-spacing: 2px;}
+.short_copy {top: 75%;}
+.p_subheader {margin-bottom:0px;font-size: 12px}
+h2{font-size: 15px; margin-top: 10px;}
+label{ font-size: 13px;line-height: 10px;}
+input[type=text],
+input[type=password],
+    textarea {padding: 8px 15px;}
+button { padding: 5px;}
+     .blockquote{top:30%;}
+}
+
+
+/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
+@media only screen and (max-width:767px){
+    .blockquote{top:25%;}
+}
+
+@media only screen and (max-width:480px){
+.long_copy {line-height: 15px;word-spacing: 2px; width: 95%;
+     margin: auto;}
+     input[type=checkbox] {
+     margin-top: 10px;
+     color: #696F79;
+     }
+    label{
+        font-size: 12px;
+        line-height: 15px
+    }
+    .container{
+          width: 90%;
+     margin: auto
+    }
+    h2{
+        width: 100%;
+        margin: auto
+    }
+    .p_subheader{
+          width: 100%;
+        margin: auto
+    }
+    .back text{
+          font-size: 12px;
+       
+    } 
+  
+}
+
+/*SMALL-PHONES FROM LESS or EQUAL TO 480 PIXEL*/
+@media only screen and (max-width:320px){
+   .long_copy {line-height: 10px;word-spacing: 2px;
+       font-size: 10px; width:90%; 
+    }
+     label{
+        font-size: 10px;
+        line-height: 15px
+    }
+     .container{
+        width: 99%;
+     margin: auto
+    }
+    h2{
+         width: 95%;
+        margin: auto;
+        font-size: 10px;
+        word-spacing: 1px
+    }
+input[type=checkbox] {margin-top: 10px;}
+input[type=checkbox] label{
+margin-top: 10px;
+    }
+    button{
+        width: 60%;
+        margin: auto;
+         font-size: 10px;
+    }
+    .registerbtn2{
+          width: 60%;
+        margin: auto;
+         font-size: 10px;
+    }
+.or_class{font-size: 10px;
+    }
+    .p_subheader{
+         width: 95%;
+     margin: auto;
+         line-height: 12px;
+    }
+}

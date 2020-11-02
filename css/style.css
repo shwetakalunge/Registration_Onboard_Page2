@@ -1,0 +1,231 @@
+ body {
+     font-family: Arial;
+     color: white;
+ }
+
+ h1 {
+     padding: 10px;
+     font-family: Gilroy;
+     font-style: normal;
+     font-size: 20px;
+     width: 10%;
+     margin: auto;
+     margin-left: 15%;
+ }
+
+ .left,
+ .right {
+     height: 100%;
+     width: 50%;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     overflow-x: hidden;
+     padding-top: 20px;
+ }
+
+ .left {
+     left: 0;
+     background-image: url(../images/Frame%201.jpg);
+ }
+
+ .right {
+     right: 0;
+     background: white;
+ }
+
+ .centered {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+ }
+
+ .centered img {
+     width: 150px;
+     border-radius: 50%;
+ }
+
+ /*--------------------------------------------------------------------*/
+ .long_copy {
+     width: 60%;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     position: absolute;
+     padding: 20px 10px 20px 10px;
+     /*  display: flex;*/
+     line-height: 18px;
+     word-spacing: 2px;
+     color: #FFFFFF;
+     margin: auto;
+     font-family: Inter;
+     font-style: normal;
+     font-weight: normal;
+     margin-top: 10px;
+font-size: 20px;
+
+ }
+
+ .short_copy {
+     top: 65%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     position: absolute;
+     left: 30%;
+     padding: 20px 10px 20px 10px;
+     font-family: Inter;
+     font-style: normal;
+     font-weight: normal;
+ }
+
+ .image1 {
+     
+ }
+
+ /*------------------------------------------------------------------------------*/
+ .p_subheader {
+     width: 60%;
+     margin: auto;
+     padding: 10px;
+     align-items: center;
+     color: #8692A6;
+     font-family: Inter;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 15px;
+     line-height: 14px;
+     margin-bottom: 25px
+ }
+
+ h2 {
+     width: 60%;
+     margin: auto;
+     padding: 5px;
+     margin-top: 15px;
+     align-items: center;
+     color: #000000;
+     font-family: Inter;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 20px;
+     line-height: 16px;
+     word-spacing: 5px
+ }
+
+ /*------------------------------------------------------------------------------------------------------------------------------------------------*/
+ .container {
+     padding: 10px;
+     background-color: white;
+     width: 60%;
+     margin: auto
+ }
+
+ label {
+     font-family: Inter;
+     font-style: normal;
+     font-weight: 500;
+     padding: 0px;
+     margin-top: 10px;
+     color: #696F79;
+     font-size: 12px;
+     line-height: 15px;
+ }
+
+ label:after {
+     content: ' \002A';
+     color: red;
+ }
+
+ input[type=text],
+ input[type=password],
+ textarea {
+     width: 100%;
+     padding: 10px 20px;
+     margin: auto;
+     background: #f1f1f1;
+     color: #696F79;
+     border: 1px solid #8692A6;
+     box-sizing: border-box;
+     font-family: Inter;
+     font-style: normal;
+     font-size: 12px;
+     line-height: 17px;
+     border-radius: 5px;
+ }
+
+ input[type=checkbox] {
+     margin-top: 15px;
+     color: #696F79;
+ }
+
+ button {
+     width: 99%;
+     padding: 10px;
+     margin: auto;
+     background: #1565D8;
+     margin-top: 10px;
+     color: white;
+     font-family: Inter;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 19px;
+     box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.08);
+ }
+
+ .or_class {
+     text-align: center;
+     width: 100%;
+     margin: auto;
+     padding: 5px;
+     color: #696F79;
+
+ }
+
+ .registerbtn2 {
+     font-family: Inter;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 19px;
+     color: #000000;
+     background-color: white;
+     font-family: Inter;
+     font-style: normal;
+     font-weight: 500;
+     box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.08);
+     border-color: aliceblue
+ }
+
+ /*--------------------------------*/
+ .material-icons {
+     margin-left: 55px;
+     margin-top: 10px;
+     color: #696F79;
+ }
+
+ .back text {
+     color: #696F79;
+ }
+/*.blockquote:before{
+    content: "\201C";
+    font-size: 600%;
+    color: #00DAF7;
+    display: block;
+        position: absolute;
+       width: 55%;
+     top: 40%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+  
+    
+}*/
+.blockquote{
+     top: 40%;
+     left:20%;
+    
+     position: absolute;
+}
